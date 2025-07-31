@@ -1,0 +1,107 @@
+:root {
+    /* Default theme variables will be set by JavaScript */
+    --color-primary: #ffffff;
+    --color-primary-foreground: #000000;
+    --color-secondary: #f8fafc;
+    --color-secondary-foreground: #334155;
+    --color-accent: #3b82f6;
+    --color-accent-foreground: #ffffff;
+    --color-success: #10b981;
+    --color-success-foreground: #ffffff;
+    --color-warning: #f59e0b;
+    --color-warning-foreground: #ffffff;
+    --color-error: #ef4444;
+    --color-error-foreground: #ffffff;
+    --color-border: #e2e8f0;
+    --color-background: #ffffff;
+    --color-foreground: #000000;
+    --color-muted: #f1f5f9;
+    --color-muted-foreground: #64748b;
+  }
+  
+  /* Theme-aware utility classes */
+  .bg-theme-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-theme-secondary {
+    background-color: var(--color-secondary);
+  }
+  .bg-theme-accent {
+    background-color: var(--color-accent);
+  }
+  .bg-theme-success {
+    background-color: var(--color-success);
+  }
+  .bg-theme-warning {
+    background-color: var(--color-warning);
+  }
+  .bg-theme-error {
+    background-color: var(--color-error);
+  }
+  .bg-theme-muted {
+    background-color: var(--color-muted);
+  }
+  
+  .text-theme-primary {
+    color: var(--color-primary-foreground);
+  }
+  .text-theme-secondary {
+    color: var(--color-secondary-foreground);
+  }
+  .text-theme-accent {
+    color: var(--color-accent);
+  }
+  .text-theme-success {
+    color: var(--color-success);
+  }
+  .text-theme-warning {
+    color: var(--color-warning);
+  }
+  .text-theme-error {
+    color: var(--color-error);
+  }
+  .text-theme-muted {
+    color: var(--color-muted-foreground);
+  }
+  
+  .border-theme {
+    border-color: var(--color-border);
+  }
+  .border-theme-accent {
+    border-color: var(--color-accent);
+  }
+  .border-theme-success {
+    border-color: var(--color-success);
+  }
+  .border-theme-warning {
+    border-color: var(--color-warning);
+  }
+  .border-theme-error {
+    border-color: var(--color-error);
+  }
+  
+  /* Smooth transitions for theme changes */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Custom scrollbar for theme picker */
+  .theme-picker-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .theme-picker-scroll::-webkit-scrollbar-track {
+    background: var(--color-muted);
+    border-radius: 3px;
+  }
+  
+  .theme-picker-scroll::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 3px;
+  }
+  
+  .theme-picker-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent);
+    opacity: 0.8;
+  }
+  

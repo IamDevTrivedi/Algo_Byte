@@ -101,7 +101,7 @@ const connectionInitialization = async () => {
       console.log(`Server is running on port ${PORT}`);
       setInterval(() => {
         axios
-          .get("https://algo-byte-i7uc.onrender.com/health")
+          .get("https://algo-byte-my.onrender.com/health")
           .then((res) => {
             console.log(`Health check successful`);
           })

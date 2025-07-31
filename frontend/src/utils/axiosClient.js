@@ -1,8 +1,8 @@
 import axios from "axios"
 //http://localhost:3000
-//https://algo-byte-i7uc.onrender.com
+//https://algo-byte-my.onrender.com/
 const axiosClient =  axios.create({
-     baseURL: 'https://algo-byte-i7uc.onrender.com',
+     baseURL: 'https://algo-byte-my.onrender.com/',
     // baseURL : "http://localhost:3000",
     withCredentials: true,
     headers: {

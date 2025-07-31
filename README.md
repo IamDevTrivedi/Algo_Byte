@@ -3,7 +3,7 @@
 A powerful **Coding Platform** built with modern technologies that offers features like problem solving, contests, AI-powered code suggestions, real-time collaborative coding, and more. Designed for developers who want to learn, practice, compete, and collaborate.
 
 ## 🌐 Live Demo
-[> _(https://algo-byte-seven.vercel.app)_]
+[> _(https://algo-byte-eight.vercel.app/)_]
 
 ---
 

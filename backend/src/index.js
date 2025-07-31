@@ -30,7 +30,8 @@ const server = http.createServer(app); //  correct usage
 const io = new Server(server, {
   cors: {
     // origin: "https://algo-byte-seven.vercel.app", // frontend origin
-    origin: "https://algo-byte-eight.vercel.app/",
+    // origin: "https://algo-byte-eight.vercel.app/",
+    origin: "*",
     credentials: true,
   },
 });
@@ -49,13 +50,13 @@ app.get("/health", (req, res) => {
 
 //http://localhost:5174
 //  Middlewares
-app.use(
-  cors({
-    // origin: 'https://algo-byte-seven.vercel.app',
-    origin: "https://algo-byte-eight.vercel.app/",
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     // origin: 'https://algo-byte-seven.vercel.app',
+//     origin: "https://algo-byte-eight.vercel.app/",
+//     credentials: true,
+//   })
+// );
 
 const rooms = {};
 const roomPlayersMap = new Map();
